@@ -25,6 +25,9 @@ body {
   line-height: 1;
   color: black;
   background: white;
+  font-smooth: antialiased;
+  -webkit-font-smoothing: antialiased;
+
 }
 ol, ul {
   list-style: none;
