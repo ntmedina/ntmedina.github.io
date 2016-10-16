@@ -100,11 +100,11 @@ header span {
 }
 
 .about h1 {
-  font-family: 'Proxima-reg';
-  font-size: 13px;
-  letter-spacing: 2px;
-  margin-bottom: 10px;
-  color: #1e1e1e;
+  font-family: 'Proxima-light';
+  font-size: 14px;
+  letter-spacing: 2.62px;
+  margin-bottom: 32px;
+  color: #333;
 }
 
 .about h2{
@@ -199,11 +199,11 @@ a {
   }
 
   .about h1 {
-    font-family: 'Proxima-reg';
-    font-size: 13px;
-    letter-spacing: 2px;
-    margin-bottom: 10px;
-    color: #1e1e1e;
+    font-family: 'Proxima-light';
+    font-size: 14px;
+    letter-spacing: 2.62px;
+    margin-bottom: 32px;
+    color: #333;
   }
 
   .about h2{
