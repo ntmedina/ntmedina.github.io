@@ -25,8 +25,9 @@ body {
   line-height: 1;
   color: black;
   background: white;
-  font-smooth: antialiased;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-decoration: none;
 
 }
 ol, ul {
@@ -47,6 +48,10 @@ q:before, q:after {
 }
 blockquote, q {
   quotes: "" "";
+}
+
+button {
+  background: none;
 }
 
 /* Fonts */
@@ -71,33 +76,38 @@ blockquote, q {
     src: url(../fonts/AGaramondPro-italic.otf);
 }
 
-
-.container {
-  margin: 0 10%;
-}
-
 /*   ||  Mobile  ||   */
 
 /* Header */
-  .header {
-    position: fixed;
-    top: 32px;
+  header {
     width: 100%;
+    top: 0px;
+    padding: 16px;
     background-color: #fff;
+    z-index: 3;
   }
   
-  .logo-ic {
+  .logo-ic img{
     width: 15.38px;
     cursor: pointer;
   }
 
   .menu-ic {
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .menu-ic img{
     width: 20px;
     cursor: pointer;
   }
 
   .grid-container {
     padding: 8px;
+  }
+
+  header div{
+    display: inline-flex;
   }
 
 /* Menu */  
@@ -116,7 +126,7 @@ blockquote, q {
   }
 
   .menu {
-    padding-top: 12em;
+    padding-top: 0;
   }
 
   .menu a {
@@ -139,29 +149,28 @@ blockquote, q {
 
 /* Content */
 
-.about {
-  margin-top:   130px;
+/* Welcome */
+
+#welcome {
+  display: inline-flex;
 }
 
-.about h1 {
-  font-family: 'Proxima-light';
-  font-size: 14px;
-  letter-spacing: 2.62px;
+#welcome h1 {
+  font-family: 'ProximaNova';
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding-right: 8px;
   margin-bottom: 32px;
-  color: #333;
+  color: #333;  
 }
 
 .about h2{
   font-family: 'Prata';
-  font-size: 45px;
-  letter-spacing: 0px;
-  line-height: 65px;
-  color: #1e1e1e;
-}
-
-a {
-  color: #ff5757;
-  text-decoration:  none;
+  font-size: 32px;
+  letter-spacing: -0.5px;
+  line-height: 52px;
+  color: #333;
 }
 
 .social a:hover {
@@ -188,83 +197,6 @@ a {
 }
 
 
-@media screen and (min-width: 200px) {
-  .container {
-    margin: 0 10%;
-  }
+@media screen and (min-width: 410px) {}
 
-  .logo {
-    margin: 40px 0;
-  }
-
-  .about h2 {
-    font-family: 'Prata';
-    font-size: 25px;
-    letter-spacing: 0px;
-    line-height: 45px;
-    color: #1e1e1e;
-  }
-
-  .about {
-    margin-top: 20px;
-  }
-
-  .social li {
-    margin-right: 30px;
-  }
-}
-
-@media screen and (max-width: 432px) {
-  .social {
-    margin-bottom: 50px;
-    margin-top: 50px;
-  }
-
-  .social ul {
-    display: block;
-  }
-
-  .social li {
-    margin-bottom: 25px;
-  }
-}
-
-@media screen and (min-width: 965px) {
-  .container {
-    margin: 0 15%;
-  }
-
-  .logo {
-    margin: 50px 0;
-  }
-
-  .about {
-    margin-top: 100px;
-  }
-
-  .about h1 {
-    font-family: 'Proxima-light';
-    font-size: 14px;
-    letter-spacing: 2.62px;
-    margin-bottom: 32px;
-    color: #333;
-  }
-
-  .about h2{
-    font-family: 'Prata';
-    font-size: 45px;
-    letter-spacing: 0px;
-    line-height: 65px;
-    color: #1e1e1e;
-  }
-}
-
-@media screen and (min-width: 1800px) {
-  .container {
-    margin: 0 20%;
-  }
-
-  .about {
-    margin-top: 150px;
-  }
-}
+@media screen and (max-width: 900px) {}
