@@ -1,0 +1,17 @@
+{% include header.html %}
+
+  <div class='main'>
+    <div class="container">
+        <ul id="posts">
+            <li class="post post-page">
+                {{ page.title }}
+                <span class="post-date">{{ page.date | date:"%d %b • %Y" }}</span>
+                {{ content }}
+            </li>
+        </ul>
+    </div> <!-- /content -->
+  </div> <!-- /container -->
+
+  {% include analytics.html %}
+
+{% include footer.html %}
