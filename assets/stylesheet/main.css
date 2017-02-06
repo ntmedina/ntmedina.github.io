@@ -218,7 +218,7 @@ nav.show {
 
 @media screen and (min-width: 640px) {
   .grid {
-    padding: 0 15%;
+    padding: 0 16.66667%;
   }
 
   header {
