@@ -104,11 +104,11 @@ header {
 }
 
 .icon-nav g{
-  fill: #555;
+  fill: #333;
 }
 
 .icon-nav g:hover {
-  fill: #999;
+  fill: #333;
 }
 
 .logo-ic {
@@ -116,12 +116,12 @@ header {
 }
 
 .logo-ic g{
-  fill: #666;
+  fill: #333;
   align-items: center;
 }
 
 .logo-ic g:hover {
-  fill: #333;
+  fill: #666;
 }
 
 .menu-ic {
@@ -129,12 +129,12 @@ header {
 }
 
 .menu-ic g{
-  fill: #666;
+  fill: #333;
 
 }
 
 .menu-ic g:hover {
-  fill: #333;
+  fill: #666;
 }
 
 
@@ -212,7 +212,7 @@ header {
   position: relative;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 460px) {
   .grid {
     padding: 0 8.33%;
   }
@@ -239,13 +239,13 @@ header {
 
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
   .grid {
     padding: 0 16.66%;
   }
 
   header {
-    padding: 64px 96px; 
+    padding: 40px 96px; 
   }
 
   .menu {
