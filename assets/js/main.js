@@ -1,5 +1,7 @@
 $(document).ready(function() {
 	$('.menu-ic').on('click', function(){
-		$('nav').toggleClass('show');        
+		$('header').toggleClass('header-nav'); 
+		$('.menu').toggleClass('menu-nav');     
+		$('.social-link').toggleClass('social-nav');       
 	})
 }) 

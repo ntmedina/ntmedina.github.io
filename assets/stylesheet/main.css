@@ -94,46 +94,68 @@ header {
   top: 0px;
   padding: 16px;
   background-color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.logo-ic img{
-  width: 16px;
+.header-nav {
+  background-color: #000;
+}
+
+.icon-nav g{
+  fill: #555;
+}
+
+.icon-nav g:hover {
+  fill: #999;
+}
+
+.logo-ic {
   cursor: pointer;
+}
+
+.logo-ic g{
+  fill: #666;
+  align-items: center;
+}
+
+.logo-ic g:hover {
+  fill: #333;
 }
 
 .menu-ic {
-  width: 100%;
-  justify-content: flex-end;
-}
-
-.menu-ic img{
-  width: 16px;
   cursor: pointer;
 }
 
-header div{
-  display: inline-flex;
+.menu-ic g{
+  fill: #666;
+
 }
+
+.menu-ic g:hover {
+  fill: #333;
+}
+
 
 /* Menu */ 
 
 .menu {
   position: fixed;
   text-align: center;
+  background-color: #111;
   width: 100vw;
   height: 100vh;
   opacity: 0; 
   transition: 0.5s; 
   padding: 20% 0px;
   z-index: 3;  
+  display: none;
 }
 
-.menu.show {
+.menu-nav {
   opacity: 1;
-  background-color: #111;
-  transition: 0.5s; 
-  padding: 20% 0px;
-  z-index: 3;
+  display: block;
 }
 
 .menu ul {
@@ -182,33 +204,36 @@ header div{
   color: #333;
 }
 
-#social li {
+.social li {
   margin-bottom: 12px; 
 }
 
-#social a {
+.social-link {
   position: relative;
 }
-
 
 @media screen and (min-width: 500px) {
   .grid {
     padding: 0 8.33%;
   }
 
+  header {
+    padding: 64px; 
+  }
+
   #about h2 {
     margin-bottom: 64px;
   }
   
-  #social {
+  .social {
     display: inline-flex;
   }
 
-  #social li:first-child {
+  .social li:first-child {
     padding-left: 0px;
   }
 
-  #social li {
+  .social li {
     padding-left: 32px;
   }
 
@@ -220,8 +245,13 @@ header div{
   }
 
   header {
-  padding: 40px 16px;
-  
+    padding: 64px 96px; 
+  }
+
+  .menu {
+  transition: 0.5s; 
+  padding: 10% 0px;
+
   }
 
   #about h2{
