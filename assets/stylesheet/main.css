@@ -100,10 +100,7 @@ header {
 }
 
 .header-nav {
-  position: fixed;
-  top: 0;
-  z-index: 3;
-  background-color: #000;
+  background-color: #111;
 }
 
 .icon-nav g{
@@ -149,16 +146,13 @@ header {
   background-color: #111;
   width: 100%;
   height: 100%;
-  opacity: 0; 
-  transition: 0.5s; 
-  padding: 40% 0px;
+  padding: 30% 0px;
   z-index: 2;  
-  display: none;
+  visibility: hidden;
 }
 
 .menu-nav {
-  opacity: 1;
-  display: block;
+  visibility: visible;
 }
 
 .menu ul {
@@ -176,7 +170,6 @@ header {
   text-decoration: none;
   display: block;
   padding: 12px;
-  transition: 0.3s;
 }
 
 .menu ul li a:hover {
@@ -224,6 +217,11 @@ header {
     padding: 64px; 
   }
 
+  .menu {
+    padding: 20% 0px; 
+
+  }
+
   #about h2 {
     margin-bottom: 64px;
   }
@@ -252,8 +250,7 @@ header {
   }
 
   .menu {
-  transition: 0.5s; 
-  padding: 20% 0px;
+    padding: 12% 0px; 
 
   }
 
