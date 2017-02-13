@@ -171,7 +171,7 @@ header {
   color: #666;
   text-decoration: none;
   display: block;
-  padding: 12px;
+  padding: 20px;
 }
 
 .menu ul li a:hover {
@@ -203,7 +203,7 @@ header {
 }
 
 .social li {
-  margin-bottom: 12px; 
+  margin-bottom: 20px; 
 }
 
 .social-link {
@@ -216,12 +216,16 @@ header {
   }
 
   header {
-    padding: 64px; 
+    padding: 52px 64px; 
   }
 
   .menu {
     padding: 30% 0px; 
 
+  }
+
+  .menu ul li a {
+    padding: 16px;
   }
 
   #about h2 {
@@ -260,6 +264,10 @@ header {
   .menu {
     padding: 12% 0px; 
 
+  }
+
+  .menu ul li a {
+    padding: 12px;
   }
 
   #about h2{
