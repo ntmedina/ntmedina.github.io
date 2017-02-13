@@ -139,6 +139,27 @@ header {
   fill: #666;
 }
 
+.menu-ic-nav {
+  visibility: hidden;
+}
+
+.close-ic {
+  display: none;
+}
+
+.close-ic-nav {
+  display: block;
+  cursor: pointer;
+}
+
+.close-ic g{
+  fill: #333;
+}
+
+.close-ic g:hover {
+  fill: #666;
+}
+
 
 /* Menu */ 
 
