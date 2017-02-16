@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Menino transante'
+title: 'Como ser um dev transante'
 description: 'Olá, meu nome é Raphael Amorim, sou um desenvolvedor transante que gosta de doritos e suikoden 2. mil bjs'
 ---
 
