@@ -4,11 +4,10 @@
   <div class="grid">
     <div class="grid-container">
       <div class="row hl">
+        <!-- Post mais recente em posts-->
+            {% assign post = site.posts.first %}
         <div class="col-sm-12 col-wd-12">
           <div class="col">
-            <!-- Post mais recente em posts-->
-            {% assign post = site.posts.first %}
-
             <div class="hl-txt">         
               <a href=""><h1 class="title">
                 {{ post.title }}
@@ -37,46 +36,30 @@
 
       <div class="row">
       <!-- Para todos os posts em posts menos o mais recente -->
+        {% for post in site.posts %}
+        {% unless post.draft %}
         <div class="col-sm-12 col-wd-6">
           <div class="col rp" id="posts">
-            {% for post in site.posts %}
-                <div class="post">
-                  <img src="../assets/images/post2-img.png"/>
-                    <h1 class="title">
-                      {{ post.title }}
-                    </h1>
-                    <p class="description">
-                      {{ post.description }}
-                    </p>
-                    <a href="{{ site.baseurl }}{{ post.url }}"><p class="readfull-cta">
-                      read full article
-                    </p></a>
-                  </div>
-              {% endfor %}
+            <div class="post">
+              <img src="../assets/images/post2-img.png"/>
+                <h1 class="title">
+                  {{ post.title }}
+                </h1>
+                <p class="description">
+                  {{ post.description }}
+                </p>
+                <a href="{{ post.url }}"><p class="readfull-cta">
+                  read full article
+                </p></a>
+              </div>
           </div>
         </div>
-        
+        {% endunless %}
+        {% endfor %}
       </div><!-- row -->
     </div> <!-- grid container -->
   </div><!-- grid -->
 
-  <!-- || Exemplo de código com Jekyll ||
-  <div class='main'>
-    <div class="container space">
-      <ul id="posts">
-          {% for post in site.posts %}
-            {% unless post.draft %}
-              <li class="post">
-                        <a class="post-title-link" href="{{ post.url }}">
-                            <h2 class="post-title">{{ post.title }}</h2>
-                        </a>
-                        <span class="post-date">{{ post.date | date:"%b %d, %Y" }}</span>
-                    </li>
-                {% endunless %}
-            {% endfor %}
-            </ul>
-        </div>
-    </div> -->
 
   {% include analytics.html %}
 

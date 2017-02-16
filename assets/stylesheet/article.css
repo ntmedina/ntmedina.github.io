@@ -228,7 +228,7 @@
 
   .signature-txt a {
     position: relative;
-    font-family: 'AGaramondPro-italic';
+    font-family:'AGaramondPro-it';
     color: #666;
     font-size: 16px;
     letter-spacing: -0.10px;
@@ -429,7 +429,7 @@
 
   .signature-txt a {
     position: relative;
-    font-family: 'AGaramondPro-italic';
+    font-family: 'AGaramondPro-it';
     color: #666;
     font-size: 16px;
     letter-spacing: -0.10px;

@@ -137,13 +137,12 @@
   .hl {
     position: relative;
     display: flex;
-    padding-top: 100px;
   }
 
   .hl-txt {
     width: 80%;
     position: absolute;
-    top: 120px;
+    top: 20px;
     z-index: 2;
   }
 
