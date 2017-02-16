@@ -1,6 +1,6 @@
 {% include header.html %}
 
-  <div class='main'>
+<!--  <div class='main'>
     <div class="container">
         <ul id="posts">
             <li class="post post-page">
@@ -10,7 +10,80 @@
             </li>
         </ul>
     </div>
-  </div>
+  </div> -->
+
+  <!--   || Cover image || -->
+  
+    <div class="row">
+      <div class="col-sm-12 col-wd-12">
+        <div class="a-cover-image">
+          <img src="img/post-img.png" alt="">
+        </div>
+      </div>
+    </div>
+    <!--   || Article || -->
+
+    <div class="grid">
+      <div class="article">
+        <div class="row">
+          <div class="col-sm-12 col-wd-12">
+            <div class="col">
+              <!--   Title   -->
+              <h1>{{ page.title }}</h1>
+              <!--   Date of publication   -->
+              <span class="date">{{ page.date | date:"%d %b • %Y" }}</span>
+              {{ content }}
+
+              <!--  
+
+              // Paragraphs
+
+              <p>There's been a resurgence in the popularity of the grid in recent times. This has come about as the web has matured into a more capable design platform, and web designers (and developers) have created deploying and leveraging grids to create balanced page layouts.
+              </p>
+
+              // Image default  
+              
+              <figure class="a-image">
+                <img src="img/teste-vertical.png" alt="">
+                <figcaption>TRADITIONAL CLEAN DESIGN STUDIO - FONTE: UNSPLASH FOTO</figcaption>
+              </figure>
+
+              // Intertitle 
+
+              <h2>Responsive</h2>
+
+              // video 
+
+              <figure>
+                <video controls>
+                  <source src="img/video.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+                <figcaption>TRADITIONAL CLEAN DESIGN STUDIO - FONTE: UNSPLASH FOTO</figcaption>
+              </figure>
+
+              // Olho
+
+              <span id="liftout-quote" class="quote">Designers understand what people need, perhaps even better than they do.</span>
+
+              // Quote
+
+              <div class="quote aq">
+                <span>Designers understand what people need, perhaps even better than they do.</span>
+                <div id="author-quote">
+                  <img src="img/author-quote.png">
+                  <div class="aq-signature">JOHNATHAN IVE | APPLE INDUSTRIAL DESIGNER</div>
+                </div>
+              </div>
+              -->
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {% include signature.html %}
 
   {% include analytics.html %}
 

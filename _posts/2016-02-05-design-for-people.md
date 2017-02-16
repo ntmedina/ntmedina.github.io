@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 'Design for People'
-description: 'Resumo do post'
+title: 'Menino transante'
+description: 'Olá, meu nome é Raphael Amorim, sou um desenvolvedor transante que gosta de doritos e suikoden 2. mil bjs'
 ---
 
-Corpo do post
+Olá, meu nome é Raphael Amorim, sou um desenvolvedor transante que gosta de doritos e suikoden 2. mil bjs
 
 [descricao do link](http://github.com/raphamorim)
 

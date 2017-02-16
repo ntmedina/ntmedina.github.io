@@ -1,5 +1,66 @@
 {% include header.html %}
 
+  <!--   || Hightlight ||  -->
+  <div class="grid main">
+    <div class="grid-container">
+      <div class="row hl">
+        <div class="col-sm-12 col-wd-12">
+          <div class="col">
+            <!-- Post mais recente em posts-->
+            {% assign post = site.posts.first %}
+
+            <div class="hl-txt">         
+              <a href=""><h1 class="title">
+                {{ post.title }}
+              </h1></a>
+              <h2 class="description">
+                {{ post.description }}
+              </h2>
+              <a href="{{ post.url }}"><p class="readfull-cta">read full article</p></a>
+            </div>
+            <div class="hl-img-wd">
+              <img src="../assets/images/post-img.png">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--   || Recent Articles || -->
+
+      <div class="row">
+        <div class="col-sm-12 col-wd-12">
+          <div class="col">
+            <p class="session-p">Recent Articles</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+      <!-- Para todos os posts em posts menos o mais recente -->
+        <div class="col-sm-12 col-wd-6">
+          <div class="col rp" id="posts">
+            {% for post in site.posts %}
+                <div class="post">
+                  <img src="../assets/images/post2-img.png"/>
+                    <h1 class="title">
+                      {{ post.title }}
+                    </h1>
+                    <p class="description">
+                      {{ post.description }}
+                    </p>
+                    <a href="{{ site.baseurl }}{{ post.url }}"><p class="readfull-cta">
+                      read full article
+                    </p></a>
+                  </div>
+              {% endfor %}
+          </div>
+        </div>
+        
+      </div><!-- row -->
+    </div> <!-- grid container -->
+  </div><!-- grid -->
+
+  <!-- || Exemplo de código com Jekyll ||
   <div class='main'>
     <div class="container space">
       <ul id="posts">
@@ -15,7 +76,7 @@
             {% endfor %}
             </ul>
         </div>
-    </div>
+    </div> -->
 
   {% include analytics.html %}
 

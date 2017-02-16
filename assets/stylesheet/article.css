@@ -1,0 +1,467 @@
+/*   ||  Mobile  ||   */
+
+/* Grid */
+
+  .article .col {
+    margin: 0px 16px
+  }
+
+/* Cover image */
+
+  .a-cover-image img {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+/* text */
+
+  .article h1 {
+    font-family: 'Prata';
+    color: #333;
+    font-size: 42px;
+    text-align: center;
+    letter-spacing: -1px;
+    line-height: 52px;
+    margin-bottom: 16px;
+  }
+
+  .article h2 {
+    font-family: 'ProximaNova';
+    text-transform: uppercase;
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+    letter-spacing: 2.4px;
+    margin-bottom: 24px;
+  }
+
+  .article h3 {
+    font-family: 'Prata';
+    color: #666;
+    font-size: 28px;
+    letter-spacing: -0.6px;
+    line-height: 28px;
+    margin: 32px 0px 16px 0px;
+  }
+
+  .article p {
+    font-family: 'AGaramondPro';
+    color: #666;
+    font-size: 22px;
+    letter-spacing: -0.4px;
+    line-height: 32px;
+    margin: 16px 0px;
+    display: inline-block;
+  }
+
+  /* Quotes */
+
+  .quote {
+    font-family: 'Prata';
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: -0.4px;
+    text-align: right;
+    margin: 28px 0px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+
+  #liftout-quote:after {
+    content: '';
+    width: 64px;
+    height: 2px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border-bottom: solid 2px #ccc;
+  }
+
+  #author-quote {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  #author-quote img {
+    width: 12px;
+    height: 9.5px;
+    margin-right: 8px;
+  }
+
+  .aq {
+    padding: 0px;
+  }
+
+  .aq-signature {
+    font-family: "ProximaNova";
+    letter-spacing: 2px;
+    line-height: 16px;
+    font-size: 10px;
+    color: #666;
+    text-transform: uppercase;
+  }
+
+/* Image & video default */
+
+  figure {
+    position: relative;
+    margin: 16px 0px;
+    display: inline-block;
+
+  }
+
+  figure img, video {
+    width: 100%;
+
+  }
+
+  figcaption {
+    margin-top: 8px;
+    font-family: 'ProximaNova';
+    text-transform: uppercase;
+    color: #666;
+    font-size: 10px;
+    letter-spacing: 2px;
+    line-height: 16px;
+    display: inline-block;
+  }
+
+  video {
+    width: 100%;
+    position: relative;
+  }
+
+  .controls[data-state=hidden] {
+    display:none;
+  }
+
+  .controls[data-state=visible] {
+    display:block;
+  }
+
+  .video-box{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .video-layer {
+    cursor: pointer;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background-color: #E9E9E9;
+  }
+
+  #video-controls {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #video-controls button{
+    position: absolute;
+    cursor: pointer;
+  }
+
+  #play-btn {
+    background-image: url('../img/play-btn.svg');
+    width: 32px;
+    height: 41px;
+    margin-left: 8px;
+  }
+
+  #pause-btn {
+    background-image: url('../img/pause-btn.svg');
+    width: 24px;
+    height: 40px;
+  }
+
+  /* signature */
+
+  .grid-signature {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .row-signature{
+    background-color: #f9f9f9;
+    margin-top: 48px;
+    padding: 16px;
+  }
+
+  .signature {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 16px;
+    padding: 16px 0px;
+  }
+
+  .signature .signature-txt {
+    margin-top: 8px;
+  }
+
+  .signature-txt {
+    text-align: center;
+  }
+
+  .signature-txt p {
+    font-family: 'ProximaNova';
+    text-transform: uppercase;
+    color: #666;
+    font-size: 12px;
+    letter-spacing: 2.4px;
+    line-height: 22px;
+    margin-bottom: 0px;
+  }
+
+  .signature-txt a {
+    position: relative;
+    font-family: 'AGaramondPro-italic';
+    color: #666;
+    font-size: 16px;
+    letter-spacing: -0.10px;
+    line-height: 22px;
+    cursor: pointer;
+  }
+
+  .signature-link:before {
+    content: '';
+    width: 24px;
+    position: absolute;
+    top: 8px;
+    left: -36px;
+    border-bottom: solid 2px #ccc;
+  }
+
+  .signature-link:after {
+    content: '';
+    width: 24px;
+    position: absolute;
+    top: 8px;
+    right: -36px;
+    border-bottom: solid 2px #ccc;
+  }
+
+  .more-article {
+    margin-bottom: 16px;
+  }
+
+  .more-article .signature-txt div{
+    padding: 24px;
+    background-color: #fff;
+  }
+
+
+/*   ||  Tablet  ||   */
+
+@media screen and (min-width: 640px){
+  .article {
+    padding: 0 16.66667%;
+  }
+}
+
+/*   ||  Desktop  ||   */
+
+@media screen and (min-width: 1000px){
+
+/* Content container */
+
+  .article {
+    padding: 0 25%;
+  }
+
+/* Cover image */
+
+  .a-cover-image {
+    position: relative;
+    height: 520px;
+    overflow: hidden;
+    margin-bottom: 64px;
+  }
+
+  .a-cover-image img {
+    position: absolute;
+    bottom: 0px;
+  }
+
+/* text */
+
+  .article h1 {
+    font-size: 72px;
+    line-height: 92px;
+    letter-spacing: -2px;
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  .article h2 {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2.5px;
+    line-height: 16px;
+    margin-bottom: 64px;
+  }
+
+  .article h3 {
+    font-size: 32px;
+    letter-spacing: -0.72px;
+    line-height: 42px;
+    margin-bottom: 28px;
+  }
+
+  .article p {
+    margin-bottom: 32px;
+  }
+
+  .quote {
+    position: relative;
+    font-family: 'Prata';
+    text-align: right;
+    font-size: 44px;
+    padding-bottom: 32px;
+    letter-spacing: -0.6px;
+    line-height: 62px;
+    margin: 48px 0px 64px 0px;
+  }
+
+  #liftout-quote:after {
+    content: '';
+    width: 64px;
+    height: 2px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border-bottom: solid 2px #ccc;
+  }
+
+  #author-quote {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 32px;
+  }
+
+  .aq {
+    padding: 0px;
+  }
+
+  .aq-signature {
+    font-family: "ProximaNova";
+    letter-spacing: 2.4px;
+    line-height: 16px;
+    font-size: 12px;
+    color: #666;
+    text-transform: uppercase;
+  }
+
+  #author-quote img {
+    width: 14px;
+    height: 12px;
+    margin-right: 8px;
+  }
+
+/* Image & video default */
+
+  figure {
+    margin: 16px 0px 48px 0px;
+  }
+
+  figcaption {
+    font-size: 12px;
+    letter-spacing: 2.4px;
+    line-height: 16px;
+  }
+
+/* signature */
+
+  .grid-signature {
+    width: 60%;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .row-signature{
+    border-top: 2px solid #D8D8D8;
+    background-color: #fff;
+    margin-top: 64px;
+    padding: 48px 0px 96px 0px;
+  }
+
+  .signature {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+    padding: 0px;
+  }
+
+  .signature .signature-txt {
+    margin-top: 0px;
+  }
+
+  .signature-txt{
+    text-align: left;
+    padding-left: 16px;
+  }
+
+  .signature-txt p {
+    font-family: 'ProximaNova';
+    text-transform: uppercase;
+    color: #666;
+    font-size: 12px;
+    letter-spacing: 2.4px;
+    line-height: 22px;
+    margin-bottom: 0px;
+  }
+
+  .signature-txt a {
+    position: relative;
+    font-family: 'AGaramondPro-italic';
+    color: #666;
+    font-size: 16px;
+    letter-spacing: -0.10px;
+    line-height: 22px;
+    cursor: pointer;
+  }
+
+  .signature-link:before {
+    display: none;
+  }
+
+  .signature-link:after {
+    content: '';
+    width: 24px;
+    position: absolute;
+    top: 8px;
+    right: -35px;
+    border-bottom: solid 2px #ccc;
+  }
+
+  .more-article {
+    margin-bottom: 0px;
+  }
+
+  .more-article .signature-txt div{
+    padding: 0px;
+    background-color: none;
+  }
+
+
+
+}
+
+
+
