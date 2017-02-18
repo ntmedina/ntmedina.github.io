@@ -9,7 +9,7 @@
         <div class="col-sm-12 col-wd-12">
           <div class="col">
             <div class="hl-txt">         
-              <a href=""><h1 class="title">
+              <a href="{{ post.url }}"><h1 class="title">
                 {{ post.title }}
               </h1></a>
               <h2 class="description">
@@ -42,7 +42,7 @@
           <div class="col rp" id="posts">
             <div class="post">
               <img src="../assets/images/post2-img.png"/>
-                <h1 class="title">
+                <h1 href="{{ post.url }}" class="title">
                   {{ post.title }}
                 </h1>
                 <p class="description">
