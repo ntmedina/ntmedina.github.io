@@ -16,27 +16,31 @@
         <!--   Next article   -->
         <div class="col-sm-12 col-md-6 col-wd-3 more-article">
           <div class="col">
-            <a href="{{ post.url }}">
+            {% if page.next.url %}
+            <a href="{{page.next.url}}">
               <div class="signature-txt">
                 <div>
-                  <p>The designer's AI study guide</p>
+                  <p>{{page.next.title}}</p>
                   <a class="signature-link" href="{{ post.url }}">next article</a>
                 </div>
               </div>
             </a>
+            {% endif %}
           </div>
         </div>
         <!--   Previous article   -->
         <div class="col-sm-12 col-md-6 col-wd-3 more-article">
           <div class="col">
-            <a href="{{ post.url }}">
+            {% if page.previous.url %}
+            <a href="{{page.previous.url}}">
               <div class="signature-txt">
                 <div>
-                  <p>The designer's AI study guide</p>
+                  <p>{{page.previous.title}}</p>
                   <a class="signature-link" href="{{ post.url }}">previous article</a>
                 </div>
               </div>
             </a>
+            {% endif %} 
           </div>
         </div>
       </div>
