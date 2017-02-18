@@ -1,0 +1,14 @@
+{% capture imagePath %}{{ page.date | date: "%Y-%m-%d" }}-{{ page.title | slugify }}/{{ include.name }}
+{% endcapture %}
+{% if include.caption %}
+    <figure class="a-image">
+        <img src="../assets/post-images/{{imagePath}}"{% if include.alt %} alt="{{ include.alt }}" {% endif %}/>
+        <figcaption>{{ include.caption }}</figcaption>
+    </figure>
+{% else %}
+	<figure class="a-image">
+    	<img src="../assets/post-images/{{imagePath}}"{% if include.alt %} alt="{{ include.alt }}" {% endif %}/>
+    </figure>
+{% endif %}
+
+
