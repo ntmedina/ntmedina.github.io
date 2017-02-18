@@ -36,8 +36,8 @@
 
       <div class="row">
       <!-- Para todos os posts em posts menos o mais recente -->
-        {% for post in site.posts %}
-        {% unless post.draft %}
+        {% for post in site.posts offset:1 %}
+        {% unless post.draft %} 
         <div class="col-sm-12 col-wd-6">
           <div class="col rp" id="posts">
             <div class="post">

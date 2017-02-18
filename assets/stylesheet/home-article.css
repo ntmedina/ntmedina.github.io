@@ -1,9 +1,5 @@
 /*   ||  Mobile  ||   */
 
-  .grid-container {
-    padding: 8px;
-  }
-
 /* text */
 
   .title {
@@ -107,7 +103,7 @@
 @media screen and (min-width: 640px){
 
   .grid-container {
-    padding: 0 16.66667%;
+    padding: 0 16.67%;
   }
 
 }
@@ -129,7 +125,7 @@
   /* Content container */
 
   .grid-container {
-    padding: 0 16.66667%;
+    padding: 0 16.67%;
   }
 
   /* Highlights */

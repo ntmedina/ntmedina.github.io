@@ -231,7 +231,7 @@ header {
   position: relative;
 }
 
-@media screen and (min-width: 460px) {
+@media screen and (min-width: 640px) {
   .grid-main {
     padding: 0 8.33%;
   }
@@ -267,7 +267,7 @@ header {
 
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 920px) {
   .grid-main{
     padding: 0 16.66%;
   }
