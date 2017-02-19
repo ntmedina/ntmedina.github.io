@@ -12,8 +12,8 @@ Recommender systems or recommendation systems (sometimes replacing "system" with
 Recommender systems have become increasingly popular in recent years, and are utilized in a variety of areas including movies, music, news, books, research articles, search queries, social tags, and products in general. There are also recommender systems for experts,collaborators,jokes, restaurants, garments, financial services, life insurance, romantic partners (online dating), and Twitter pages.
 
 <figure class="a-image">
-    <img src="../assets/post-images/2017-02-16-recommendation-systems/post2-img.png"  />
-    <figcaption>Sharing my blog on LinkedIn</figcaption> 
+    <img src="../assets/post-images/2017-02-16-recommendation-systems/post3-img.png"  />
+    <figcaption>Somewhere cool and nice</figcaption> 
 </figure>
 
 ### How it works
