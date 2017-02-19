@@ -93,16 +93,19 @@ header {
   width: 100%;
   top: 0px;
   padding: 16px;
+  position: fixed;
   background-color: #fff;
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid #eee;
 }
 
 .header-nav {
   position: fixed;
   z-index: 4;
   background-color: #111;
+  border-bottom: none;
 }
 
 .icon-nav g{
@@ -237,6 +240,9 @@ header {
   }
 
   header {
+    position: fixed;
+    background: transparent;
+    border-bottom: none;
     padding: 52px 64px; 
   }
 
@@ -279,17 +285,19 @@ header {
   }
 
   header {
+    position: fixed;
+    background: transparent;
     padding: 40px 96px; 
   }
 
   .header-nav {
-    position: relative;
-    z-index: 3;
+    position: fixed;
+    z-index: 4;
     background-color: #111;
   }
 
   .menu {
-    padding: 12% 0px; 
+    padding: 22% 0px; 
 
   }
 

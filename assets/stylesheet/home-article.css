@@ -103,7 +103,7 @@
 @media screen and (min-width: 640px){
 
   .grid-container {
-    padding: 0 16.67%;
+    padding: 8% 16.67%;
   }
 
 }
@@ -121,12 +121,6 @@
 /*   ||  Desktop  ||   */
 
 @media screen and (min-width: 920px){
-
-  /* Content container */
-
-  .grid-container {
-    padding: 0 16.67%;
-  }
 
   /* Highlights */
 
