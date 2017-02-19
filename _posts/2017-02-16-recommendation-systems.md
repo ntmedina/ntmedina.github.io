@@ -2,6 +2,7 @@
 layout: post
 title: 'Recommendation Systems'
 description: 'The importance of recomendation systems in web digital products'
+thumbnail: "../assets/post-images/2017-02-16-recommendation-systems/cover.png"
 ---
 
 Recommender systems or recommendation systems (sometimes replacing "system" with a synonym such as platform or engine) are a subclass of information filtering system that seek to predict the "rating" or "preference" that a user would give to an item. 
