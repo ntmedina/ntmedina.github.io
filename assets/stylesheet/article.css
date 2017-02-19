@@ -266,6 +266,10 @@
     background-color: #fff;
   }
 
+  .col-signature{
+    padding: 16px; 
+  }
+
 
 /*   ||  Tablet  ||   */
 
@@ -283,6 +287,10 @@
 
   .article {
     padding: 0 22%;
+  }
+
+  .col-signature{
+    padding: 0px; 
   }
 
 /* Cover image */
