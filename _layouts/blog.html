@@ -2,6 +2,11 @@
 
   <!--   || Hightlight ||  -->
   <div class="grid">
+      <!-- Post mais recente em posts-->
+      {% assign post = site.posts.first %}
+      <div class="hl-img-sm">
+        <img src="{{ post.thumbnail }}">
+      </div> 
     <div class="grid-container">
       <div class="row hl">
         <!-- Post mais recente em posts-->

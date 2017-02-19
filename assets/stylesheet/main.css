@@ -286,6 +286,7 @@ header {
 
   header {
     position: fixed;
+    z-index: 4;
     background: transparent;
     padding: 40px 96px; 
   }

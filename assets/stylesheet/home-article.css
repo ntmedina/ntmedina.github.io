@@ -1,5 +1,9 @@
 /*   ||  Mobile  ||   */
 
+.grid-container {
+    padding-top: 16px;
+  }
+
 /* text */
 
   .title {
@@ -31,6 +35,7 @@
 
   .hl-img-sm img{
     width: 100%;
+    margin-top: 59px;
   }
 
   .hl-txt h1{
@@ -103,7 +108,12 @@
 @media screen and (min-width: 640px){
 
   .grid-container {
-    padding: 8% 16.67%;
+    margin-top: 32px;
+    padding: 0% 18%;
+  }
+
+  .hl-img-sm img{
+    margin-top: 0px;
   }
 
 }
