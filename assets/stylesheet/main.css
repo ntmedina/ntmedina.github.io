@@ -93,6 +93,7 @@ header {
   width: 100%;
   top: 0px;
   padding: 16px;
+  z-index: 4;
   position: fixed;
   background-color: #fff;
   display: inline-flex;
@@ -245,6 +246,7 @@ header {
 
   header {
     position: fixed;
+    z-index: 4;
     background: transparent;
     border-bottom: none;
     padding: 52px 64px; 
