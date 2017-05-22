@@ -287,7 +287,7 @@ header {
 
 @media screen and (min-width: 920px) {
   .grid-main{
-    padding: 0;
+    padding: 88px 16.66%;
   }
 
   header {
@@ -317,5 +317,13 @@ header {
     letter-spacing: -0.3px;
     line-height: 64px;
   }
+
+}
+
+@media screen and (min-width: 1300px) {
+  .grid-main{
+    padding: 10px;
+  }
+
 
 }
