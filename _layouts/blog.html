@@ -4,27 +4,27 @@
   <div class="grid">
       <!-- Post mais recente em posts-->
       {% assign post = site.posts.first %}
-      <div class="hl-img-sm">
+      <div class="hl-img-sm"><a href="{{ post.url }}">
         <img src="{{ post.thumbnail }}">
-      </div> 
+      </a>
+      </div>
     <div class="grid-container">
       <div class="row hl">
         <!-- Post mais recente em posts-->
             {% assign post = site.posts.first %}
         <div class="col-sm-12 col-wd-12">
           <div class="col">
-            <div class="hl-txt">         
-              <a href="{{ post.url }}"><h1 class="title">
+            <div class="hl-txt"><a href="{{ post.url }}">
+              <h1 class="title">
                 {{ post.title }}
-              </h1></a>
+              </h1>
               <h2 class="description">
                 {{ post.description }}
               </h2>
-              <a href="{{ post.url }}"><p class="readfull-cta">read full article</p></a>
-            </div>
-            <div class="hl-img-wd">
+            </a></div>
+            <div class="hl-img-wd"><a href="{{ post.url }}">
               <img src="{{ post.thumbnail }}"/>
-            </div>
+            </a></div>
           </div>
         </div>
       </div>
@@ -42,10 +42,10 @@
       <div class="row">
       <!-- Para todos os posts em posts menos o mais recente -->
         {% for post in site.posts offset:1 %}
-        {% unless post.draft %} 
+        {% unless post.draft %}
         <div class="col-sm-12 col-wd-6">
           <div class="col rp" id="posts">
-            <div class="post">
+            <div class="post"><a href="{{ post.url }}">
               <img src="{{ post.thumbnail }}"/>
                 <h1 href="{{ post.url }}" class="title">
                   {{ post.title }}
@@ -53,10 +53,7 @@
                 <p class="description">
                   {{ post.description }}
                 </p>
-                <a href="{{ post.url }}"><p class="readfull-cta">
-                  read full article
-                </p></a>
-              </div>
+              </a></div>
           </div>
         </div>
         {% endunless %}

@@ -185,6 +185,8 @@
 
   .hl-img-wd img {
     width: 714px;
+    position: relative;
+    right: 135%;
   }
 
   /* Recent posts */
