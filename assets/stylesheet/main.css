@@ -57,7 +57,7 @@ button {
 a {
   text-decoration: none;
   font-family: 'AGaramondPro-it';
-  font-size: 20px; 
+  font-size: 20px;
   color: #666;
 }
 
@@ -165,7 +165,7 @@ header {
 }
 
 
-/* Menu */ 
+/* Menu */
 
 .menu {
   position: fixed;
@@ -174,7 +174,7 @@ header {
   width: 100%;
   height: 100%;
   padding: 40% 0px;
-  z-index: 3;  
+  z-index: 3;
   visibility: hidden;
 }
 
@@ -192,7 +192,7 @@ header {
 
 .menu ul li a {
   font-family: 'AGaramondPro-it';
-  font-size: 20px; 
+  font-size: 20px;
   color: #666;
   text-decoration: none;
   display: block;
@@ -220,7 +220,7 @@ header {
   text-transform: uppercase;
   padding-right: 8px;
   margin: 32px 0px;
-  color: #666;  
+  color: #666;
 }
 
 #about h2{
@@ -232,7 +232,7 @@ header {
 }
 
 .social li {
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
 }
 
 .social-link {
@@ -249,11 +249,11 @@ header {
     z-index: 4;
     background: transparent;
     border-bottom: none;
-    padding: 52px 64px; 
+    padding: 52px 64px;
   }
 
   .menu {
-    padding: 30% 0px; 
+    padding: 30% 0px;
 
   }
 
@@ -264,7 +264,7 @@ header {
   #about h2 {
     margin-bottom: 64px;
   }
-  
+
   .social {
     display: inline-flex;
   }
@@ -294,7 +294,7 @@ header {
     position: fixed;
     z-index: 4;
     background: transparent;
-    padding: 40px 96px; 
+    padding: 40px 96px;
   }
 
   .header-nav {
@@ -304,7 +304,7 @@ header {
   }
 
   .menu {
-    padding: 22% 0px; 
+    padding: 22% 0px;
 
   }
 
