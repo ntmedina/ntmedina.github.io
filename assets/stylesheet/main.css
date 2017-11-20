@@ -231,6 +231,11 @@ header {
   color: #333;
 }
 
+#about h2 span {
+  font-size: 24px;
+  letter-spacing: 0.5px;
+}
+
 .social li {
   margin-bottom: 20px;
 }
@@ -316,6 +321,11 @@ header {
     font-size: 40px;
     letter-spacing: -0.3px;
     line-height: 64px;
+  }
+
+  #about h2 span {
+  font-size: 32px;
+  letter-spacing: 0.5px;
   }
 
 }
