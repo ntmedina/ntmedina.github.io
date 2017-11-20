@@ -8,7 +8,7 @@ keywords: "tag1, tag2, tag3"
 
 domain: ntmedina.github.io
 twitter-username: nt_medina
-gems: [jekyll-paginate, jekyll-gist]
+plugins: [jekyll-paginate, jekyll-gist]
 
 source:      .
 destination: ./_site
