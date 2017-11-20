@@ -1,12 +1,12 @@
 safe:        false
-baseurl: http://nataliamedina.io
-url: http://nataliamedina.io
+baseurl: http://ntmedina.github.io
+url: http://ntmedina.github.io
 
 name: nataliamedina
 description: Designer
 keywords: "tag1, tag2, tag3"
 
-domain: nataliamedina.io
+domain: ntmedina.github.io
 twitter-username: nt_medina
 plugins: [jekyll-paginate, jekyll-gist]
 
