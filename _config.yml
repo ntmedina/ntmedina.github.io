@@ -12,7 +12,6 @@ plugins: [jekyll-paginate, jekyll-gist]
 
 source:      .
 destination: ./_site
-paginate_path: '/page:num'
 
 future:      true
 lsi:         false

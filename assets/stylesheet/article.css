@@ -261,6 +261,15 @@
     border-bottom: solid 2px #ccc;
   }
 
+  .signature .image{
+    width: 100%;
+  }
+
+  .signature .image img{
+    width: 64px;
+    border-radius: 50%;
+  }
+
   .more-article {
     margin-bottom: 16px;
   }
@@ -284,6 +293,15 @@
 
   .a-cover-image {
     margin-top: 0px;
+  }
+
+  .signature .image{
+    width: 64px;
+  }
+
+  .signature .image img{
+    width: 100%px;
+    border-radius: 50%;
   }
 }
 
