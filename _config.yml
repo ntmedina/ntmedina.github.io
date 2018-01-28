@@ -1,5 +1,5 @@
 safe:        false
-baseurl: http://ntmedina.github.io
+baseurl: /
 url: http://ntmedina.github.io
 
 name: nataliamedina
