@@ -213,6 +213,10 @@ header {
   display: inline-flex;
 }
 
+#about {
+  max-width: 760px;
+}
+
 #about h1 {
   font-family: 'ProximaNova';
   font-size: 12px;
@@ -229,6 +233,7 @@ header {
   letter-spacing: -0.3px;
   line-height: 52px;
   color: #333;
+  max-width: 760px;
 }
 
 #about h2 span {
@@ -317,6 +322,11 @@ header {
     padding: 12px;
   }
 
+  #about{
+    position: relative;
+    top: 10vh;
+  }
+
   #about h2{
     font-size: 40px;
     letter-spacing: -0.3px;
@@ -333,6 +343,11 @@ header {
 @media screen and (min-width: 1500px) {
   .grid-main{
     padding: 20px;
+  }
+
+  #about{
+    position: relative;
+    top: 20vh;
   }
 
 
